@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>🌈Happy Holi</title>
+		<link rel="stylesheet" href="./styles.css" />
+	</head>
+	<body>
+		<div class="wish-section">
+			<button id="wish-btn">🎁 Generate Wish</button>
+			<p id="wish"></p>
+			<button id="copy-btn" style="display: none">📋 Copy Wish</button>
+		</div>
+
+		<audio id="holi-music" loop>
+			<source src="holiSong.mpeg" type="audio/mpeg" />
+			Your browser does not support the audio element.
+		</audio>
+
+		<button id="music-btn">🎵 Play Music</button>
+
+		<div class="container">
+			<h1 id="greeting">🎨 Happy Holi! 🌈</h1>
+			<p>Click anywhere to splash colors!</p>
+			<div id="color-container"></div>
+			<div id="shape-container"></div>
+		</div>
+
+		<div id="about">
+			<h2>About Me</h2>
+			<p>
+				My name is Rohit Negi, and I am currently pursuing Bachelor of Computer
+				Applications (BCA) at Kumaun University. I live in Nainital district,
+				Uttarakhand, and have a keen interest in web development.
+			</p>
+		</div>
+
+		<script src="./script.js"></script>
+	</body>
+</html>
