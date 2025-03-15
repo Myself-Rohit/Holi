@@ -7,7 +7,7 @@
 
 body {
 	text-align: center;
-	background-color: #fff3e0;
+	background-color: #eec27c;
 	transition: background 0.5s ease-in-out;
 }
 
@@ -54,15 +54,16 @@ p {
 	right: 10px;
 	padding: 10px 15px;
 	font-size: 16px;
-	background: #ff4081;
+	background: orangered;
 	color: white;
 	border: none;
 	border-radius: 5px;
 	cursor: pointer;
+	transition: 0.3s;
 }
 
 #music-btn:hover {
-	background: #e91e63;
+	background: rgb(196, 2, 2);
 }
 
 .shape {
@@ -87,18 +88,19 @@ p {
 #copy-btn {
 	padding: 10px 15px;
 	font-size: 16px;
-	background: #ff4081;
+	background: orangered;
 	color: white;
 	border: none;
 	border-radius: 5px;
 	cursor: pointer;
+	transition: 0.3s;
 }
 #copy-btn {
-	margin: 0 0 10px 10px;
+	margin: 10px auto;
 }
 #wish-btn:hover,
 #copy-btn:hover {
-	background: #e91e63;
+	background: rgb(196, 2, 2);
 }
 
 #about {
